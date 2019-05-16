@@ -1,5 +1,4 @@
 // it's recommended to load configuration for .env as early as possible
-// require('dotenv').config(); // add this line as the first thing to run1
 require('dotenv').config(); // add the library "yarn add dotenv", then add this as first line of code
 
 const server = require('./api/server.js');
